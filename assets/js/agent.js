@@ -1599,7 +1599,7 @@ if (!knowledge.topic || !BANK[knowledge.topic]) {
         firstTokenTimedOut = true;
         controller.abort();
       }
-    }, 10000);
+    }, 90000);
     var abortUpstream = function () {
       controller.abort();
     };
