@@ -1,0 +1,9 @@
+.env
+server/.env
+course-review-assistant.zip
+.security/
+.codeartsdoer/
+node_modules/
+.DS_Store
+*.log
+.atomgit-token
