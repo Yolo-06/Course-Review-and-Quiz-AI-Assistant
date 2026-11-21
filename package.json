@@ -5,8 +5,8 @@
   "description": "课程复习刷题 AI 助教",
   "type": "commonjs",
   "scripts": {
+    "setup": "node scripts/setup.js",
     "start": "node server/server.js",
-
     "test": "node --test tests/logic.test.js",
     "check:model": "node scripts/check-upstream.js"
   },
